@@ -35,7 +35,7 @@ At Smaato, we do our best to go the extra mile and as such you would receive bon
 A JSON array representing image or text information along with user name and country. The response is NOT case sensitive.
 
 ### Image Object Format
-```java
+```
 {
      "created": -449280, /* number of seconds passed since created */ 
      "type": "IMG",
@@ -44,7 +44,7 @@ A JSON array representing image or text information along with user name and cou
 }
  ```
 ### Text Object Format
-```java
+```
 {
      "created": -280800, /* number of seconds passed since created */ 
      "type": "TEXT",
@@ -55,7 +55,7 @@ A JSON array representing image or text information along with user name and cou
 
 ### Note
 Please note that the JSON array might have invalid or incomplete object e.g.
-```java
+```
 {
      "created": 0
 }
