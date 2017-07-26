@@ -7,6 +7,8 @@ Write an Android application with a library project (SDK) using Java. Only the l
 
 Once loaded, the library project should at least randomly select one object from the response and generate a View/ViewGroup with text or image. Add features as you like, use your imagination, but coding standard and overall architecture will have the highest value.
 
+Please make sure to include at least a few Unit Tests.
+
 ### The Library Project should handle the following,
 * sending the request 
 * parsing the response 
@@ -22,6 +24,7 @@ Once loaded, the library project should at least randomly select one object from
 
 ## Bonus Points
 At Smaato, we do our best to go the extra mile and as such you would receive bonus points if
+* Demonstrate proper usage (e.g. small commits with comments) of version control if you hand in code via github or bitbucket.
 * Let the Library project create the View(s) and Android App display the generated View. 
 * Export the Library project as a jar or aapt file.
 * Usage of Unit Testing framework like Robolectric etc.
